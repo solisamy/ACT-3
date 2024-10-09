@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "geoApp",
   "version": "0.0.1",
   "author": "Ionic Framework",
@@ -64,4 +65,9 @@
     "typescript": "~5.4.0"
   },
   "description": "An Ionic project"
+=======
+  "dependencies": {
+    "@capacitor/geolocation": "^6.0.1"
+  }
+>>>>>>> 7518c6bfdb0fca8cd4195f3fac7dff0cd99d91c0
 }
