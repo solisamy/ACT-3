@@ -1,9 +1,10 @@
-import type { CapacitorConfig } from '@capacitor/cli';
+import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'geoApp',
-  webDir: 'www'
+  appId: 'com.example.app',
+  appName: 'mi-app',
+  webDir: 'www', // Directorio donde se generan los archivos web
+  bundledWebRuntime: false
 };
 
 export default config;
